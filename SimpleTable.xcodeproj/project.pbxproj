@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285592841ADC1BC5002806F5 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 285592831ADC1BC5002806F5 /* Recipe.m */; };
 		28FEECB31ADB57B400136CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEECB21ADB57B400136CCC /* main.m */; };
 		28FEECB61ADB57B400136CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEECB51ADB57B400136CCC /* AppDelegate.m */; };
 		28FEECB91ADB57B400136CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FEECB81ADB57B400136CCC /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285592821ADC1BC5002806F5 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		285592831ADC1BC5002806F5 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 		28FEECAD1ADB57B400136CCC /* SimpleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FEECB11ADB57B400136CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28FEECB21ADB57B400136CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285592811ADC1BAB002806F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				285592821ADC1BC5002806F5 /* Recipe.h */,
+				285592831ADC1BC5002806F5 /* Recipe.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		28FEECA41ADB57B400136CCC = {
 			isa = PBXGroup;
 			children = (
+				285592811ADC1BAB002806F5 /* Model */,
 				28FEECAF1ADB57B400136CCC /* SimpleTable */,
 				28FEECC91ADB57B400136CCC /* SimpleTableTests */,
 				28FEECAE1ADB57B400136CCC /* Products */,
@@ -222,6 +235,7 @@
 				28FEECB91ADB57B400136CCC /* ViewController.m in Sources */,
 				28FEECB61ADB57B400136CCC /* AppDelegate.m in Sources */,
 				28FEECB31ADB57B400136CCC /* main.m in Sources */,
+				285592841ADC1BC5002806F5 /* Recipe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				28FEECD21ADB57B400136CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28FEECD31ADB57B400136CCC /* Build configuration list for PBXNativeTarget "SimpleTableTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				28FEECD51ADB57B400136CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
